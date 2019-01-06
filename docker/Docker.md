@@ -1,64 +1,64 @@
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 Docker Certified Associate Test Review Questions Set 1
------------------------------------------------------------------------------------------------------------------------------------------
-Question 1
-Which of the following Dockerfile options creates a mount point with the specified name and marks it as holding externally mounted volumes from native host or other containers?
-A	WORKDIR
-B	VOLUME ---------------------
-C	RUN
-D	ONBUILD
-Question 2
-Dockerfile option EXPOSE publish the port to external systems. True or false?
-A	True
-B	False -----------------------
-Question 3
-Which of the Dockerfile options initializes a new build stage and sets the base image for subsequent instructions?
-A	CMD
-B	ONBUILD
-C	FROM --------------------
-D	RUN
-Question 4
-What does docker image rm command do?
-A	Display detailed information on one or more images
-B	Show the history of an image
-C	Remove one or more images -----------------------
-D	Remove unused images
-Question 5
-Which of the following is NOT how to create an efficient image via a Dockerfile?
-A	Combine multiple applications into a single container -------------------
-B	Use multi-stage builds
-C	Avoid installing unnecessary packages
-D	Start with an appropriate base image
-Question 6
-What Dockerfile option LABEL does?
-A	Provide defaults for an executing container
-B	Tells Docker how to test a container to check that it is still working
-C	Label a container that will run as an executable
-D	Adds metadata to an image ------------------------------
-Question 7
-Which of the Dockerfile options executes any commands in a new layer on top of the current image and commit the results?
-A	RUN -----------------------
-B	ONBUILD
-C	FROM
-D	CMD
-Question 8
-Which of the following docker image commands display detailed information on one or more images?
-A	docker image history
-B	docker image ls
-C	docker image inspect ---------------------
-D	docker image detail
-Question 9
-What docker image prune command does?
-A	Display detailed information on one or more images
-B	Remove one or more images
-C	Remove unused images ---------------------
-D	Show the history of an image
-Question 10
-What Dockerfile option EXPOSE does?
-A	Label a container that will run as an executable
-B	Informs Docker that the container listens on the specified network ports at runtime ------------------------
-C	Expose defaults for an executing container
-D	Adds metadata to an image
+-----------------------------------------------------------------------------------------------------------------------------
+    Question 1
+    Which of the following Dockerfile options creates a mount point with the specified name and marks it as holding externally mounted volumes from native host or other containers?
+        A	WORKDIR
+        B	VOLUME ---------------------
+        C	RUN
+        D	ONBUILD
+    Question 2
+    Dockerfile option EXPOSE publish the port to external systems. True or false?
+        A	True
+        B	False -----------------------
+    Question 3
+    Which of the Dockerfile options initializes a new build stage and sets the base image for subsequent instructions?
+        A	CMD
+        B	ONBUILD
+        C	FROM --------------------
+        D	RUN
+    Question 4
+    What does docker image rm command do?
+        A	Display detailed information on one or more images
+        B	Show the history of an image
+        C	Remove one or more images -----------------------
+        D	Remove unused images
+    Question 5
+    Which of the following is NOT how to create an efficient image via a Dockerfile?
+        A	Combine multiple applications into a single container -------------------
+        B	Use multi-stage builds
+        C	Avoid installing unnecessary packages
+        D	Start with an appropriate base image
+    Question 6
+    What Dockerfile option LABEL does?
+        A	Provide defaults for an executing container
+        B	Tells Docker how to test a container to check that it is still working
+        C	Label a container that will run as an executable
+        D	Adds metadata to an image ------------------------------
+    Question 7
+    Which of the Dockerfile options executes any commands in a new layer on top of the current image and commit the results?
+        A	RUN -----------------------
+        B	ONBUILD
+        C	FROM
+        D	CMD
+    Question 8
+    Which of the following docker image commands display detailed information on one or more images?
+        A	docker image history
+        B	docker image ls
+        C	docker image inspect ---------------------
+        D	docker image detail
+    Question 9
+    What docker image prune command does?
+        A	Display detailed information on one or more images
+        B	Remove one or more images
+        C	Remove unused images ---------------------
+        D	Show the history of an image
+    Question 10
+    What Dockerfile option EXPOSE does?
+        A	Label a container that will run as an executable
+        B	Informs Docker that the container listens on the specified network ports at runtime ------------------------
+        C	Expose defaults for an executing container
+        D	Adds metadata to an image
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
