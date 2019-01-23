@@ -1,2 +1,23 @@
 ECS - Elastic Container service
 
+VPC - Virtual Private Cloude
+Amazon Virtual Private Cloud (Amazon VPC) enables you to launch AWS resources into a virtual network that you've defined. 
+This virtual network closely resembles a traditional network that you'd operate in your own data center, 
+with the benefits of using the scalable infrastructure of AWS.
+
+VPCs and Subnets
+A virtual private cloud (VPC) is a virtual network dedicated to your AWS account. 
+It is logically isolated from other virtual networks in the AWS Cloud. 
+You can launch your AWS resources, such as Amazon EC2 instances, into your VPC.
+You can specify an IP address range for the VPC, add subnets, associate security groups, and configure route tables.
+
+A subnet is a range of IP addresses in your VPC. You can launch AWS resources into a specified subnet. 
+Use a public subnet for resources that must be connected to the internet, 
+and a private subnet for resources that won't be connected to the internet.
+
+- VPC
+- Private network with AWS resources like - Amazon EC2 instances, Database, S3 and other.
+- Network with specific IP address range.
+- Network with subnet
+- Network with associate security group
+- Network with route tables
