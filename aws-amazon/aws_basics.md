@@ -34,4 +34,9 @@ and a private subnet for resources that won't be connected to the internet.
   * Network with specific IP address range.
     - IP address Range
   * Network with subnet
-    - Subnetroup
+    - Subnetgroup
+    - subnet in availibility zone
+    - Full tolerence redundency and dependencies
+    - Subnet always attached with a route table
+    - Public Subnet - Route table attached to the subnet will be attached to an Internet Gateway
+    - Private Subnet - Route table attached to the subnet with no Internet Gateway attached
