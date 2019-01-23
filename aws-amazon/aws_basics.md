@@ -37,7 +37,8 @@ and a private subnet for resources that won't be connected to the internet.
               - A new button appeard below with label "Add another route"
               - Click the "Add another route", a new row will appear.
               - Enter: Destination, Target
-                - In case of Internet Gateway : Destination:0.0.0.0/0, Target: internet_gateway_ID
+                - In case of Internet Gateway:- Destination:0.0.0.0/0, Target: Internet_Gateway_ID
+                - One VPC Peered to Specific Subnets:- Destination:Destination_IP, Target: VPC_ID
   * Subnet and Route Table
     - Subnetgroup
     - subnet has to be in one availibility zone
