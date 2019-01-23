@@ -20,13 +20,18 @@ and a private subnet for resources that won't be connected to the internet.
 
   * VPC
     - Private Cloud
-  * Private network with AWS resources like - Amazon EC2 instances, Database, S3 and other.
-    - AWS Resources
-  * Network with specific IP address range.
-    - IP address Range
-  * Network with subnet
-    - Subnetroup
+  * Network Gateway
+    - Private Network
   * Network with route tables
     - Route Table:- A route table contains a set of rules, called routes, that are used to determine where 
       network traffic is directed. Each subnet in your VPC must be associated with a route table; 
       the table controls the routing for the subnet.
+  * Network access control list
+    - NACL
+  * Private network with AWS resources like - Amazon EC2 instances, Database, S3 and other.
+    - AWS Resources
+    
+  * Network with specific IP address range.
+    - IP address Range
+  * Network with subnet
+    - Subnetroup
