@@ -1,5 +1,6 @@
 
-# AWS Basics -
+# AWS Basics
+------------------------------------------------------------------------------------------------------------------------
 
 ## ECS - Elastic Container service
 
@@ -9,14 +10,13 @@ This virtual network closely resembles a traditional network that you'd operate 
 with the benefits of using the scalable infrastructure of AWS.
 
 VPCs and Subnets
-A virtual private cloud (VPC) is a virtual network dedicated to your AWS account. 
+A virtual private cloud (VPC) is a virtual network dedicated to your AWS account.
 It is logically isolated from other virtual networks in the AWS Cloud. 
 You can launch your AWS resources, such as Amazon EC2 instances, into your VPC.
 You can specify an IP address range for the VPC, add subnets, associate security groups, and configure route tables.
 
 A subnet is a range of IP addresses in your VPC. You can launch AWS resources into a specified subnet. 
-Use a public subnet for resources that must be connected to the internet, 
-and a private subnet for resources that won't be connected to the internet.
+Use a public subnet for resources that must be connected to the internet, and a private subnet for resources that won't be connected to the internet.
 
   * VPC
     - Private Cloud
@@ -45,8 +45,8 @@ and a private subnet for resources that won't be connected to the internet.
           - Any subnet which are not associated with any route table are by default associated with the main route table.    
   * Internet Gateway
     - Private Network
-  * Network with route tables
-    - Route Table:- A route table contains a set of rules, called routes, that are used to determine where 
+  * Route tables
+    - Private and Public Route Tables:- A route table contains a set of rules, called routes, that are used to determine where 
       network traffic is directed. Each subnet in your VPC must be associated with a route table; 
       the table controls the routing for the subnet.
       - Create Route Table:
@@ -63,7 +63,9 @@ and a private subnet for resources that won't be connected to the internet.
                 - In case of Internet Gateway:- Destination:0.0.0.0/0, Target: Internet_Gateway_ID
                 - One VPC Peered to Specific Subnets:- Destination:Destination_IP, Target: VPC_ID
   * Network access control list
-    - NACL
+    - Private and Public Network Access Control Lists
+  * Security Groups
+    - Public and Private Security Groups
   * Private network with AWS resources like - Amazon EC2 instances, Database, S3 and other.
     - AWS Resources
     
