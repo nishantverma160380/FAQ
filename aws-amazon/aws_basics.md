@@ -1,5 +1,5 @@
 
-# AWS
+# AWS Basics -
 
 ## ECS - Elastic Container service
 
@@ -20,6 +20,8 @@ and a private subnet for resources that won't be connected to the internet.
 
   * VPC
     - Private Cloud
+  * Availability zones
+    - No of availability zones in a region.
   * Subnet and Route Table
     - Subnetgroup
     - subnet has to be in one availibility zone
