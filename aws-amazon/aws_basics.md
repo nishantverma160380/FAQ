@@ -20,25 +20,6 @@ and a private subnet for resources that won't be connected to the internet.
 
   * VPC
     - Private Cloud
-  * Internet Gateway
-    - Private Network
-  * Network with route tables
-    - Route Table:- A route table contains a set of rules, called routes, that are used to determine where 
-      network traffic is directed. Each subnet in your VPC must be associated with a route table; 
-      the table controls the routing for the subnet.
-      - Create Route Table:
-        - Create Route Table {Name-tag: name of the route table, VPC: VPC for the subnet}
-        - Press: Yes, Create
-          - Created route table will be available in the list of route tables
-          - select the created route table
-            - Select the "Route" tab below
-            - A default entry is available which shows the destination IP's within the APC that a subnet can connect.
-            - Click "Edit" button
-              - A new button appeard below with label "Add another route"
-              - Click the "Add another route", a new row will appear.
-              - Enter: Destination, Target
-                - In case of Internet Gateway:- Destination:0.0.0.0/0, Target: Internet_Gateway_ID
-                - One VPC Peered to Specific Subnets:- Destination:Destination_IP, Target: VPC_ID
   * Subnet and Route Table
     - Subnetgroup
     - subnet has to be in one availibility zone
@@ -59,7 +40,26 @@ and a private subnet for resources that won't be connected to the internet.
           - Select a subnet which are going to be a private subnet.
           - Press: Save
         - If there is a route table with main: Yes
-          - Any subnet which are not associated with any route table are by default associated with the main route table.
+          - Any subnet which are not associated with any route table are by default associated with the main route table.    
+  * Internet Gateway
+    - Private Network
+  * Network with route tables
+    - Route Table:- A route table contains a set of rules, called routes, that are used to determine where 
+      network traffic is directed. Each subnet in your VPC must be associated with a route table; 
+      the table controls the routing for the subnet.
+      - Create Route Table:
+        - Create Route Table {Name-tag: name of the route table, VPC: VPC for the subnet}
+        - Press: Yes, Create
+          - Created route table will be available in the list of route tables
+          - select the created route table
+            - Select the "Route" tab below
+            - A default entry is available which shows the destination IP's within the APC that a subnet can connect.
+            - Click "Edit" button
+              - A new button appeard below with label "Add another route"
+              - Click the "Add another route", a new row will appear.
+              - Enter: Destination, Target
+                - In case of Internet Gateway:- Destination:0.0.0.0/0, Target: Internet_Gateway_ID
+                - One VPC Peered to Specific Subnets:- Destination:Destination_IP, Target: VPC_ID
   * Network access control list
     - NACL
   * Private network with AWS resources like - Amazon EC2 instances, Database, S3 and other.
