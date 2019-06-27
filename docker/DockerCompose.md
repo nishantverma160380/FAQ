@@ -7,12 +7,11 @@ Docker compose
 5. Basic Commands
 
 TIPS
-: tool for defining & running multi-container docker applications
-: use yaml files to configure application services (docker-compose.yml)
-: can start all services with a single command : docker compose up
-: can stop all services with a single command : docker compose down
-: can scale up selected services when required
-
+  * tool for defining & running multi-container docker applications
+  * use yaml files to configure application services (docker-compose.yml)
+  * can start all services with a single command : docker compose up
+  * can stop all services with a single command : docker compose down
+  * can scale up selected services when required
 
 Step 1 : install docker compose
    (already installed on windows and mac with docker)
