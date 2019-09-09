@@ -488,6 +488,23 @@ Python Project
 make venv
 make init
 
+docker changes in python project:
+  From: people-common-terraform/deployments/account/variables.tf
+  To: utilities.sh
+  To: Jenkinsfile
+  To: Makefile
+  
+Terraform related changes :
+  From: people-common-terraform/deployments/account/variables.tf
+  To: Modules.tf
+  
+
+
+
+
+
+
+
 
 
 
