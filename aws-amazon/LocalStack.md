@@ -336,14 +336,10 @@ PARAMETER FOR EXTRACT:
             "paramName": "Effective Date" ,
             "paramValue": "2018-10-25"
         },
-	{
-		"paramName": "PAYROLL" ,
-		"paramValue": "300000030910485"
-	},
-	{
-		"paramName": "PAY_PERIOD" ,
-		"paramValue": "300000030910558"
-	}
+        {
+            "paramName": "PAYROLL" ,
+            "paramValue": "300000030910485"
+        }
     ]
 }
 
@@ -376,6 +372,17 @@ PARAMETER FOR EXTRACT:
 
 
 PARAMETER FOR BIP:
+
+{
+    "extractId": "INT_128_BIP_A",
+    "providerLocation": "mdev.peacock.people.extract.zeawpttbsz/HCM/INT_128_BIP_A/a06a6a660-6aaa-666a-6a6a-6aa666a6aa6a",
+    "parameters": [
+        {
+            "paramName": "Effective Date" ,
+            "paramValue": "2019-03-03"
+        }
+    ]
+}
 
 {
     "extractId": "INT-TESTPER_BIP",
